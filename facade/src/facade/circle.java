@@ -11,8 +11,11 @@ package facade;
  */
 public class circle implements shape {
 
-   @Override
+      @Override
    public void draw() {
-      System.out.println("Circle::draw()");
+      System.out.println("circle::draw()");
+   }
+   public void color() {
+      System.out.println("black::color()");
    }
 }

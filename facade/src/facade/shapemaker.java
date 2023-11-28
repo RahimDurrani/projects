@@ -22,11 +22,14 @@ public class shapemaker {
 
    public void drawCircle(){
       circle.draw();
+      circle.color();
    }
    public void drawRectangle(){
       rectangle.draw();
+      rectangle.color();
    }
    public void drawSquare(){
       square.draw();
+      square.color();
    }
 }

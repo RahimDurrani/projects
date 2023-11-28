@@ -15,4 +15,7 @@ public class rectangle implements shape {
    public void draw() {
       System.out.println("Rectangle::draw()");
    }
+   public void color() {
+      System.out.println("red::color()");
+   }
 }
