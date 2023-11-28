@@ -10,6 +10,6 @@ package facade;
  * @author fa20-bse-050
  */
 public interface shape {
-   void draw();
+   void draw(String...options);
    void color();
 }

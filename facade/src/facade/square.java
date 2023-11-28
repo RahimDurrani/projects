@@ -12,8 +12,8 @@ package facade;
 public class square implements shape {
 
     @Override
-   public void draw() {
-      System.out.println("square::draw()");
+   public void draw(String...options) {
+      System.out.println("square::draw()" + options);
    }
    public void color() {
       System.out.println("green::color()");

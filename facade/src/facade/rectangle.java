@@ -12,8 +12,8 @@ package facade;
 public class rectangle implements shape {
 
    @Override
-   public void draw() {
-      System.out.println("Rectangle::draw()");
+   public void draw(String...options) {
+      System.out.println("Rectangle::draw()" + options);
    }
    public void color() {
       System.out.println("red::color()");

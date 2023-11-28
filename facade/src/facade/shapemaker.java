@@ -20,16 +20,16 @@ public class shapemaker {
       square = new square();
    }
 
-   public void drawCircle(){
-      circle.draw();
+   public void drawCircle(String...options){
+      circle.draw(options);
       circle.color();
    }
-   public void drawRectangle(){
-      rectangle.draw();
+   public void drawRectangle(String...options){
+      rectangle.draw(options);
       rectangle.color();
    }
-   public void drawSquare(){
-      square.draw();
+   public void drawSquare(String...options){
+      square.draw(options);
       square.color();
    }
 }
